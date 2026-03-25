@@ -1,4 +1,7 @@
-.idea/
-*.iml
-__pycache__/
-.venv/
+.idea
+
+.venv
+__pycache__
+
+allure-results
+allure-report
