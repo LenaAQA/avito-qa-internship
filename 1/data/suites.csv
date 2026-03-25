@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"Verify successful creation of an advertisement with valid data","920","Create advertisement with valid data","tests.advertisement","Wed Mar 25 20:38:11 UTC 2026","skipped","Wed Mar 25 20:38:12 UTC 2026","TestAdvertisement","test_advertisement","",""
+"Verify that seller advertisements can be retrieved","211","Get advertisements by seller id","tests.advertisement","Wed Mar 25 20:38:12 UTC 2026","passed","Wed Mar 25 20:38:12 UTC 2026","TestGetSellerAdvertisements","test_get_seller_advertisement","",""
+"Verify that advertisement statistics can be retrieved by its id","859","Get statistic by advertisement id","tests.statistic","Wed Mar 25 20:38:13 UTC 2026","passed","Wed Mar 25 20:38:14 UTC 2026","TestGetStatisticById","test_get_statistic","",""
+"Verify that advertisement can be retrieved by its id","207","Get advertisement by id","tests.advertisement","Wed Mar 25 20:38:13 UTC 2026","passed","Wed Mar 25 20:38:13 UTC 2026","TestGetAdvertisementById","test_get_advertisement","",""

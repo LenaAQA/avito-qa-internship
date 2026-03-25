@@ -1,0 +1,13 @@
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to https://qa-internship.avito.com/api/1/item
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from https://qa-internship.avito.com/api/1/item
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     HTTP_LOGGER:event_hooks.py:28 Make GET request to https://qa-internship.avito.com/api/1/statistic/3563beaf-42df-4554-9b19-13cee44a2d77
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from https://qa-internship.avito.com/api/1/statistic/3563beaf-42df-4554-9b19-13cee44a2d77
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     STATISTICS_ASSERTIONS:statistics.py:41 Check get statistic response
+INFO     BASE_ASSERTIONS:base.py:69 Check that length of 'statistics' equals to 1
+INFO     STATISTICS_ASSERTIONS:statistics.py:17 Check statistics
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'likes' equals to '70'
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'view_count' equals to '2751'
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'contacts' equals to '18'
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validation JSON schema

@@ -1,0 +1,19 @@
+INFO     HTTP_LOGGER:event_hooks.py:28 Make POST request to https://qa-internship.avito.com/api/1/item
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from https://qa-internship.avito.com/api/1/item
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     HTTP_LOGGER:event_hooks.py:28 Make GET request to https://qa-internship.avito.com/api/1/129885/item
+INFO     HTTP_LOGGER:event_hooks.py:37 Got response 200 OK from https://qa-internship.avito.com/api/1/129885/item
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     ADVERTISEMENT_ASSERTIONS:advertisement.py:101 Check get advertisements response
+INFO     BASE_ASSERTIONS:base.py:69 Check that length of 'advertisements' equals to 1
+INFO     ADVERTISEMENT_ASSERTIONS:advertisement.py:45 Check advertisement against request
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'id' equals to '4f775f4c-59e7-4c4a-87be-f237a62b193c'
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'seller_id' equals to '129885'
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'name' equals to 'Lawyer born'
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'price' equals to '809967'
+INFO     STATISTICS_ASSERTIONS:statistics.py:17 Check statistics
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'likes' equals to '81'
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'view_count' equals to '8570'
+INFO     BASE_ASSERTIONS:base.py:38 Check that 'contacts' equals to '46'
+INFO     BASE_ASSERTIONS:base.py:87 Check that 'created_at' is not None
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validation JSON schema
